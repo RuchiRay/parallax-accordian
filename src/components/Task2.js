@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
 import { FiChevronDown ,FiChevronRight} from 'react-icons/fi'
 export const Task2 = () => {
-    const [week1, setWeek1] = useState(false)
-    const [week2, setWeek2] = useState(false)
-    const [week3, setWeek3] = useState(false)
+    const [week1, setWeek1] = useState(true)
+    const [week2, setWeek2] = useState(true)
+    const [week3, setWeek3] = useState(true)
     const handleArrow1 = ()=>{
       setWeek1(!week1)
     }
